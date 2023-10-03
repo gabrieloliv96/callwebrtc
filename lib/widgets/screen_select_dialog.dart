@@ -59,9 +59,9 @@ class _ThumbnailWidgetState extends State<ThumbnailWidget> {
                 ? Image.memory(
                     widget.source.thumbnail!,
                     gaplessPlayback: true,
-                    alignment: Alignment.center,
+                    alignment: Alignment.centerleft,
                   )
-                : Container(),
+                : Container(decoration: DecorationBox()),
           ),
         )),
         Text(
